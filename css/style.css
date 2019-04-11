@@ -90,3 +90,18 @@ section {
     margin: auto;
     padding: 0 30px 0 0 ;
 }
+
+.texto_historia{
+    padding: 30px;
+    display: inline-block;  
+}
+
+.jlr_historia{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links_notas{
+    padding: 30px;
+}
