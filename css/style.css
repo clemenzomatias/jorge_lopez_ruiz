@@ -104,3 +104,15 @@ section {
 .links_notas{
     padding: 30px;
 }
+
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main section img{
+    width: 300px;
+    height: 300px;
+}
