@@ -14,21 +14,20 @@
 }
 
 body {
-
     background-image: url('/imagenes/fondo01.jpg');
-    background: #151515;
+    background: #191919;
 }
 
 
 header {
-    background: #A63D40;
+    background: #A80117;
     padding: 15px 0;
 }
 
 header h1 {
     display: inline-block;
     vertical-align: top;
-    color: #E9B872;
+    color: peachpuff;
     font-family: 'raleway', sans-serif;
     letter-spacing: 0.05em;
     font-size: 30px;
@@ -38,7 +37,7 @@ header h1 {
 
 p,
 h2 {
-    color: #EFF0D1;
+    color: peachpuff;
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 0.05em;
     text-align: justify;
@@ -46,7 +45,7 @@ h2 {
 }
 
 a {
-    color: #EFF0D1;
+    color: peachpuff;
     list-style: square outside none;
 }
 
