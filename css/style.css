@@ -1,0 +1,23 @@
+body {
+    background: #070707;
+}
+
+h1 {
+    color: #EFF0D1;
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+p,
+h2 {
+    color: #EFF0D1;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.05em;
+    text-align: justify;
+    line-height: 150%
+}
+
+a {
+    color: #EFF0D1;
+    list-style: square outside none;
+}
