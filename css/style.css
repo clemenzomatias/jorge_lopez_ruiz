@@ -28,7 +28,7 @@ header h1 {
     display: inline-block;
     vertical-align: top;
     color: peachpuff;
-    font-family: 'raleway', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     letter-spacing: 0.05em;
     font-size: 30px;
 }
@@ -57,8 +57,17 @@ a {
     align-self: center
 }
 
+body section div img{
+    border-radius: 0%;
+}
+
 .spotify {
     align-self: enter;
+}
+
+header nav .menu li a {
+    color: peachpuff;
+    text-transform: uppercase;
 }
 
 header nav {
@@ -81,10 +90,10 @@ header nav .menu .submenu {
     box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
+
 header nav .menu li:hover .submenu {
     display: block;
-    
-}
+} 
 
 header nav .menu li a:hover {
     color: #FFC857;
@@ -143,6 +152,8 @@ main section img{
     height: 300px;
 }
 
+/*Página Notas*/
+
 .entrevistas{
     text-align: center;
     color: #FFFFC7;
@@ -161,22 +172,22 @@ main section img{
 
 @keyframes colores {
     0% {
-        color: #FFFFC7;
+        color: #F0544F;
     }
 
-    25% {
-        color: #FCAA67;
-    }
-
-    75% {
-        color: #B0413E;
+    50% {
+        color: #F21B3F;
     }
 
     100% {
-        color: #FFFFC7;
+        color: #D00000;
     }
 }
 
+.links_notas div {
+    padding: 10px;
+  }
+  
 /*Probando animcación en discografía*/
 
 .galeria img:hover {
@@ -186,9 +197,11 @@ main section img{
 /*Probando animcación en Inicio*/
 
 .disco_animado {
-    padding: 30px;
+    margin-left: 20px;
+    padding: 20px;
     height: 200px;
     width: 200px;
+    border-radius: 50%;
     animation: desplazar 10s linear;
  }
 
@@ -205,3 +218,5 @@ main section img{
       transform: translate(-100vw, 0);
     }*/
   }
+
+ 
