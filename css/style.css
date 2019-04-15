@@ -15,6 +15,7 @@
 
 body {
     background-image: url('../imagenes/fondo01.jpg');
+    background-size: cover;
 }
 
 
@@ -48,6 +49,17 @@ a {
     list-style: square outside none;
 }
 
+.portada {
+    display: flex;
+}
+
+.imagen_jlr {
+    align-self: center
+}
+
+.spotify {
+    align-self: enter;
+}
 
 header nav {
     float: right;
@@ -61,15 +73,31 @@ header nav .menu li {
 }
 
 header nav .menu .submenu {
-    background: #070707;
+    background: #A80117;
     position: absolute;
     width: 150px;
     display: none;
     padding-top: 10px;
+    box-shadow: 2px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 header nav .menu li:hover .submenu {
     display: block;
+    
+}
+
+header nav .menu li a:hover {
+    color: #FFC857;
+}
+
+header nav .menu .submenu li {
+    display: block;
+    margin: 0;
+    padding: 5px;
+}
+
+header nav .menu .submenu li:hover {
+    background: #B0413E;
 }
 
 section img {
@@ -114,3 +142,66 @@ main section img{
     width: 300px;
     height: 300px;
 }
+
+.entrevistas{
+    text-align: center;
+    color: #FFFFC7;
+    font-family: 'raleway', sans-serif;
+    letter-spacing: 0.05em;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    animation-name: colores;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    transition: width 2s, background 1s;
+}
+
+@keyframes colores {
+    0% {
+        color: #FFFFC7;
+    }
+
+    25% {
+        color: #FCAA67;
+    }
+
+    75% {
+        color: #B0413E;
+    }
+
+    100% {
+        color: #FFFFC7;
+    }
+}
+
+/*Probando animcación en discografía*/
+
+.galeria img:hover {
+    opacity: 0.8;
+  }
+
+/*Probando animcación en Inicio*/
+
+.disco_animado {
+    padding: 30px;
+    height: 200px;
+    width: 200px;
+    animation: desplazar 10s linear;
+ }
+
+ @keyframes desplazar {
+    0% {
+      transform: translate(100vw, 0);
+    }
+    /*
+    50% {
+      transform: translate(100vw, 0);
+    }
+    
+    80% {
+      transform: translate(-100vw, 0);
+    }*/
+  }
