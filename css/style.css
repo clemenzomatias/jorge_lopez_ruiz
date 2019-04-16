@@ -18,6 +18,10 @@ body {
     background-size: cover;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 
 header {
     background: #A80117;
@@ -111,6 +115,7 @@ header nav .menu .submenu li:hover {
 
 section img {
     display: inline-block;
+    /*width: 100%;*/
     margin: auto;
     float: left;
     padding: 0 30px 0 0px;
@@ -135,6 +140,10 @@ section {
     padding: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.jlr_historia img{
+    width: 100%;
 }
 
 .links_notas{
@@ -203,7 +212,7 @@ main section img{
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    animation: desplazar 10s linear;
+    animation: desplazar 2s linear;
 }
 
  @keyframes desplazar {
