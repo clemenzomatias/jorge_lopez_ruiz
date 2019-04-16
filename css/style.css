@@ -196,6 +196,7 @@ main section img{
 
 /*Probando animcación en Inicio*/
 
+
 .disco_animado {
     margin-left: 20px;
     padding: 20px;
@@ -203,19 +204,19 @@ main section img{
     width: 200px;
     border-radius: 50%;
     animation: desplazar 10s linear;
- }
+}
 
  @keyframes desplazar {
     0% {
-      transform: translate(100vw, 0);
+      transform: translate(10vw, 0);
     }
     /*
     50% {
       transform: translate(100vw, 0);
     }
     
-    80% {
-      transform: translate(-100vw, 0);
+    100% {
+      transform: translate(100vw, 0);
     }*/
   }
 
